@@ -19,7 +19,7 @@ def index():
     return render_template('index.html')
 
 # OpenAI API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API_KEY")
 
 @lru_cache(maxsize=1)
 def get_context():
